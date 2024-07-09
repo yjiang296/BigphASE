@@ -1,11 +1,12 @@
 # BigphASE
 Bi-parental graph ASE analyzer
 <br>
+This python program was devised to analyze hybrid RNA-seq using bi-parental graph strategy.
+<br>
 version: 0.1
 <br>
 author: Yi Jiang (jiangy296@mail2.sysu.edu.cn); Muran Yi; Zhule Liu
-<br>
-This python program was devised to analyze hybrid RNA-seq using bi-parental graph strategy.
+
 
 <h3>Enviroment required:</h3>
 xxx
