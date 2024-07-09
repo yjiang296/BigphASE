@@ -5,14 +5,20 @@ author: Yi Jiang (jiangy296@mail2.sysu.edu.cn); Muran Yi; Zhule Liu
 
 This python program was devised to analyze hybrid RNA-seq using bi-parental graph strategy.
 
-Enviroment required:
+<h3>Enviroment required:</h3>
+<br>
 xxx
 
 
-Installation:
+<h3>Installation:</h3>
+
+<br>
 `pip install BigphASE`
 
-Main steps:
+<h3>Usage:</h3>
+python BigphASE.py [parent_A genome sequence fa] [parent_B genome sequence fa] [parent_A genome gff3] [clean RNAseq R1 fastq] [clean RNAseq R2 fastq]
+
+<h3>Main steps:</h3>
 
 (1) Graph builder
 Graph genome was built using one parental genome as backbone, with variations between two parental genomes as alternate paths.
