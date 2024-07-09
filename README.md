@@ -1,2 +1,24 @@
 # BigphASE
 Bi-parental graph ASE analyzer
+version: 0.1
+author: Yi Jiang (jiangy296@mail2.sysu.edu.cn); Muran Yi; Zhule Liu
+
+This python program was devised to analyze hybrid RNA-seq using bi-parental graph strategy.
+
+Enviroment required:
+xxx
+
+
+Installation:
+`pip install BigphASE`
+
+Main steps:
+
+(1) Graph builder
+Graph genome was built using one parental genome as backbone, with variations between two parental genomes as alternate paths.
+(2) RNAseq mapping
+Clean RNA-seq data were mapped to graph index.
+(3) ASE genes analysis
+After mapping, reads were assigned to parental origin based on their genotypes at SNP sites, then maternal and paternal origin reads count of each gene were summed.
+
+![pipeline](https://github.com/yjiang296/BigphASE/assets/115337217/e85cd6dc-2704-4e55-a3f2-aaab0b281fce)
