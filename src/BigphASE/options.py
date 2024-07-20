@@ -392,15 +392,6 @@ class Hisat2Options(__Options__):
     def __init__(self):
         super().__init__()
         
-    # def set_x(self):
-    #     """
-        
-    #     """
-    #     self._opts.append()
-        
-    #     return self
-    
-    
     def set_q(self):
         """
         Reads are FASTQ files. FASTQ files usually have extension .fq or .fastq. \n

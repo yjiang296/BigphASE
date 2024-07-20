@@ -314,10 +314,10 @@ class Analyzer:
                 index = 0
                 for sim in simbols:
                     if sim in '.,':
-                        match_ref.append(reads[index])
+                        match_ref.add(reads[index])
                         index +=1
                     elif sim in 'ACGTacgt':
-                        mismatch_ref.append(reads[index])
+                        mismatch_ref.add(reads[index])
                         index +=1
                     else:
                         continue
@@ -329,7 +329,7 @@ class Analyzer:
             genes.append(line)
             del match_ref, mismatch_ref 
             
-            op_csv = os.os.path.join(self._out_dir,self._out_prefix + "SNPs.inexon.csv")
+            op_csv = os.path.join(self._out_dir,self._out_prefix + "SNPs.inexon.csv")
             with open(op_csv,'w') as csv:
                 for line in genes:
                     csv.write(line)
