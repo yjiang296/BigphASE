@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import os
 import sys
 import subprocess
@@ -166,6 +167,7 @@ if __name__ == "__main__":
         
     gb.OPT_hisatBuild.set_p(t_num)
 
+    gb.run()
     
     hisat2_index = PREFIX
     mp = BigphASE.Mapper(PREFIX, hisat2_index, R1, R2)
@@ -180,15 +182,12 @@ if __name__ == "__main__":
     
     else:
         raise ValueError("Read file format is not supported")
-        
+    
+    mp.run()
 
     sorted_bam = PREFIX + '.sorted.bam'
     snp = PREFIX + '.snp'
     an = BigphASE.Analyzer(PREFIX, REF, sorted_bam, snp, GFF)
-
-    # Run all model
-    gb.run()
-    mp.run()
     an.run()
     
     # remove non importent files

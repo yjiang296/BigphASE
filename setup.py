@@ -101,7 +101,7 @@ cpp_extension = Extension('delta2hap',
 
 setup(
     name='BigphASE',
-    version='0.1.1',
+    version='0.1.2',
     description='This package was devised to analyze hybrid RNA-seq using bi-parental graph strategy.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
@@ -113,6 +113,7 @@ setup(
     ext_modules=[cpp_extension],
     cmdclass={'build_ext': BuildExt, 'install': InstallCommand},
     packages=['BigphASE'],
+    scripts=['scripts/BigphASEtools'],
     include_package_data=True,
     package_dir={'': 'src'},
     install_requires=[],
