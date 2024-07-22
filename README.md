@@ -8,20 +8,20 @@ version: 0.1.2
 <br>
 author: Yi Jiang (<jiangy296@mail2.sysu.edu.cn>); Muran Yi; Zhule Liu
 
-<h3>Enviroment required:</h3>
+### Enviroment required:
 xxx
 
-<h3>Installation:</h3>
+### Installation:
 ```
 pip install BigphASE
 ```
 
-<h3>Usage:</h3>
+### Usage:
 ```
 BigphASEtools [-options] <parent_A genome sequence fa> <parent_B genome sequence fa> <parent_A genome gff3> <clean RNAseq R1 fastq> <clean RNAseq R2 fastq> <prefix>
 ```
 
-<h3>Main steps:</h3>
+### Main steps:
 
 (1) Graph builder
 Graph genome was built using one parental genome as backbone, with variations between two parental genomes as alternate paths.
