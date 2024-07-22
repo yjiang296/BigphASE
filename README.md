@@ -12,10 +12,14 @@ author: Yi Jiang (<jiangy296@mail2.sysu.edu.cn>); Muran Yi; Zhule Liu
 xxx
 
 <h3>Installation:</h3>
-`pip install BigphASE`
+```
+pip install BigphASE
+```
 
 <h3>Usage:</h3>
+```
 BigphASEtools [-options] <parent_A genome sequence fa> <parent_B genome sequence fa> <parent_A genome gff3> <clean RNAseq R1 fastq> <clean RNAseq R2 fastq> <prefix>
+```
 
 <h3>Main steps:</h3>
 
