@@ -9,7 +9,15 @@ version: 0.1.2
 author: Yi Jiang (<jiangy296@mail2.sysu.edu.cn>); Muran Yi; Zhule Liu
 
 ### Enviroment required:
-xxx
+
+Mummer4 :4.0.0rc1 or higher
+<br>
+Hisat2 :2.2.1 or higher
+<br>
+Samtools :1.19.2 or higher
+<br>
+Bedtools :2.31.1 or higher
+<br>
 
 ### Installation:
 ```
